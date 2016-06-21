@@ -1,0 +1,25 @@
+{
+  "name": "bkafrontend",
+  "version": "1.0.0",
+  "description": "BKA front end exercise",
+  "main": "practice.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "tape": "^4.5.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.7",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "supertest": "^1.2.0",
+    "tap-spec": "^4.1.1"
+  }
+}
