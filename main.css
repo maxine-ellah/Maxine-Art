@@ -13,7 +13,7 @@ img {
 .header {
   text-align: center;
   font-family: Domine;
-  position: fixed;
+  /*position: fixed;*/
 }
 
 h4 {
