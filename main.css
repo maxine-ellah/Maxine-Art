@@ -11,9 +11,11 @@ img {
 }
 
 .header {
+  height: 50px;
+  width: 100%;
   text-align: center;
   font-family: Domine;
-  /*position: fixed;*/
+  position: fixed;
 }
 
 h4 {
