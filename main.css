@@ -13,6 +13,7 @@ img {
 .header {
   text-align: center;
   font-family: Domine;
+  position: fixed;
 }
 
 h4 {
@@ -22,4 +23,5 @@ h4 {
 
 a {
     text-decoration: none;
+    color: black;
 }
