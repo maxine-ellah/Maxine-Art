@@ -22,6 +22,10 @@ img {
   /*position: fixed;*/
 }
 
+h2 {
+position: fixed;
+}
+
 h4 {
   text-align: center;
   font-family: Domine;
