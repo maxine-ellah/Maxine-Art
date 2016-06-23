@@ -14,17 +14,21 @@ img {
 
 }
 
-.header {
+/*.header {
   height: 50px;
   width: 100%;
   text-align: center;
   font-family: Domine;
-  /*position: fixed;*/
-}
+  /*position: fixed;
+}*/
 
 h2 {
-position: fixed;
-text-align: center;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: Domine;
+  position: fixed;
+  text-align: center;
 }
 
 h4 {
