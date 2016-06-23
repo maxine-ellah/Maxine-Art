@@ -2,16 +2,21 @@ body {
   position: relative;
 }
 
+div.header {
+  padding-bottom: 20px;
+}
+
 h2 {
   position: fixed;
+  text-align: center;
   height: 50px;
   width: 100%;
   font-family: Domine;
-  text-align: center;
+
 }
 
-.content {
-
+div.content {
+  margin: 30px;
 }
 
 img {
@@ -20,15 +25,8 @@ img {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
 }
-
-/*.header {
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  font-family: Domine;
-  /*position: fixed;
-}*/
 
 
 h4 {
@@ -37,6 +35,6 @@ h4 {
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
