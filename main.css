@@ -2,6 +2,14 @@ body {
   position: relative;
 }
 
+h2 {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  font-family: Domine;
+  text-align: center;
+}
+
 .content {
   margin-top: 100px;
 }
@@ -22,13 +30,6 @@ img {
   /*position: fixed;
 }*/
 
-h2 {
-  position: fixed;
-  height: 50px;
-  width: 100%;
-  font-family: Domine;
-  text-align: center;
-}
 
 h4 {
   text-align: center;
