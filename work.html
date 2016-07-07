@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link href="main.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora|Bitter|Domine|Droid+Sans|Roboto+Slab|Muli' rel='stylesheet' type='text/css'>
-    <title>Maxine Ellah</title>
 
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
     <style type="text/css">
@@ -12,6 +10,25 @@
         border: none;
     }
     </style>
+
+    <link href='https://fonts.googleapis.com/css?family=Lora|Bitter|Domine|Droid+Sans|Roboto+Slab|Muli' rel='stylesheet' type='text/css'>
+    <title>Maxine Ellah</title>
+
+    <!-- Angular script -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+
+    <!-- Module -->
+
+    <script src="app.js"></script>
+
+    <!-- Controller -->
+
+    <script src="controller/artCtrl.js"></script>
+
+    <!-- Directive -->
+
+    <script src="directives/artInfo.js"></script>
 
   </head>
 
@@ -30,7 +47,7 @@
         <div class="picture">
 
 
-          <app-info info="madonna"></app-info>
+          <art-images info="madonna"></art-images>
 
           <!-- <img class="fancybox" src="images/madonna.jpg" alt="madonna.jpg" width="50%" height="50%"> -->
 
@@ -63,26 +80,6 @@
       </div>
 
     </div>
-
-
-
-  <!-- Angular script -->
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
-
-  <!-- Module -->
-
-  <script src="app.js"></script>
-
-  <!-- Controller -->
-
-  <script src="controller/artCtrl.js"></script>
-
-  <!-- Directive -->
-
-  <script src="directives/artInfo.js"></script>
 
 
 

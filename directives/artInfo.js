@@ -4,6 +4,6 @@ app.directive('artImages', function(){
     scope: {
       info: '='
     },
-    templateURL: 'directives/artInfo.html'
-  }
-})
+    templateUrl: 'directives/artInfo.html'
+  };
+});
