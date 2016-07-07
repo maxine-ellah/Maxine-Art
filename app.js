@@ -1,1 +1,1 @@
-var app = angular.module('artworks', ['ngRoute']);
+var app = angular.module('artworks', []);

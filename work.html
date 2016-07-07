@@ -11,32 +11,85 @@
     a.fancybox img {
         border: none;
     }
-</style>
+    </style>
+
   </head>
-  <body>
+
+  <body ng-app="artworks">
+
     <div class="header">
       <a href="index.html">
         <h2>Maxine Ellah</h2>
       </a>
     </div>
 
-    <div class="content">
+    <div class="main" ng-controller="artCtrl">
 
-        <img class="fancybox" src="images/madonna.jpg" alt="madonna.jpg" width="50%" height="50%">
+      <div class="content">
 
-        <img class="fancybox" src="images/Untitled-1.jpg" alt="Untitled-1.jpg" width="60%" height="60%">
+        <div class="picture">
 
-        <img class="fancybox" src="images/womanwave.jpg" alt="womanwave.jpg" width="60%" height="60%">
 
-        <img class="fancybox" src="images/blackerlinessmall.jpg" alt="blackerlinessmall.jpg" width="80%" height="80%">
+          <app-info info="madonna"></app-info>
 
-        <img class="fancybox" src="images/chosen 3.jpg" alt="chosen3.jpg" width="70%" height="70%">
+          <!-- <img class="fancybox" src="images/madonna.jpg" alt="madonna.jpg" width="50%" height="50%"> -->
 
+        </div>
+
+        <div class="picture">
+
+          <img class="fancybox" src="images/Untitled-1.jpg" alt="Untitled-1.jpg" width="60%" height="60%">
+
+        </div>
+
+        <div class="picture">
+
+          <img class="fancybox" src="images/womanwave.jpg" alt="womanwave.jpg" width="60%" height="60%">
+
+        </div>
+
+        <div class="picture">
+
+          <img class="fancybox" src="images/blackerlinessmall.jpg" alt="blackerlinessmall.jpg" width="80%" height="80%">
+
+        </div>
+
+        <div class="picture">
+
+          <img class="fancybox" src="images/chosen 3.jpg" alt="chosen3.jpg" width="70%" height="70%">
+
+        </div>
+
+      </div>
 
     </div>
 
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <!-- Angular script -->
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+
+  <!-- Module -->
+
+  <script src="app.js"></script>
+
+  <!-- Controller -->
+
+  <script src="controller/artCtrl.js"></script>
+
+  <!-- Directive -->
+
+  <script src="directives/artInfo.js"></script>
+
+
+
+
+  <!-- Gallery code -->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
   <script type="text/javascript">
