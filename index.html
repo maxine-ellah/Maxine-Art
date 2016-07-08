@@ -6,25 +6,39 @@
     <link href='https://fonts.googleapis.com/css?family=Lora|Bitter|Domine|Droid+Sans|Roboto+Slab|Muli' rel='stylesheet' type='text/css'>    <title>Maxine Ellah</title>
   </head>
 
-  <body>
+  <body ng-app="artworks">
     <div class="header">
       <h2>Maxine Ellah</h2>
     </div>
 
-    <div>
-      <a href="work.html">
+    <div ng-controller="artCtrl" class="content">
+
+      <front-page info="prince"></front-page>
+
+      <!-- <a href="work.html">
         <img src="images/black.jpg" alt="Image not found" width="40%" height="40%">
-      </a>
+      </a> -->
+
     </div>
-<!--
-    <div class="nav">
-       <a href='mailto:maxine.ellah@gmail.com'>
-        <h4>Contact</h4>
-      </a>
-    </div> -->
-    
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular-route.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+
+
+
+
+    <!-- Angular script -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+
+    <!-- Module -->
+
+    <script src="app.js"></script>
+
+    <!-- Controller -->
+
+    <script src="controller/artCtrl.js"></script>
+
+    <!-- Directive -->
+
+    <script src="directives/frontPage.js"></script>
+
   </body>
 </html>

@@ -1,4 +1,9 @@
 app.controller('artCtrl', function($scope) {
+  $scope.prince = {
+    name: "black",
+    image: "./images/black.jpg"
+  };
+
   $scope.madonna = {
     name: 'madonna',
     image: './images/madonna.jpg'
