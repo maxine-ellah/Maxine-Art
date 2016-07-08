@@ -1,11 +1,3 @@
-body {
-  position: relative;
-}
-
-div.header {
-  padding-bottom: 20px;
-}
-
 h2 {
   position: fixed;
   text-align: center;
@@ -15,20 +7,6 @@ h2 {
 
 }
 
-div.content {
-  margin: 30px;
-}
-
-img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
-}
-
-
 h4 {
   text-align: center;
   font-family: Domine;
@@ -37,4 +15,28 @@ h4 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+div.header {
+  padding-bottom: 20px;
+}
+
+
+div.content {
+  margin: 30px;
+  text-align: center;
+}
+
+div.madonna {
+  max-width: 60%;
+  height: auto;
+}
+
+.image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
 }
