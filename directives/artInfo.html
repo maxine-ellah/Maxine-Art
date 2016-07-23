@@ -1,2 +1,4 @@
-<img class="image" ng-src="{{ info.image }}"></img>
-<!-- <p class="name">{{ info.name }}</p> -->
+<div ng-repeat="x in info">
+  <img class="image" ng-src="{{ x.image }}"></img>
+  <p class="name">{{ x.name }}</p>
+<div>
