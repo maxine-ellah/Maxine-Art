@@ -1,9 +1,7 @@
 app.controller('artCtrl', function($scope) {
   $scope.prince = {
     name: "black",
-    images: [
-      './images/black.jpg'
-    ]
+    images: './images/black.jpg'
   };
 
   $scope.gallery = [
