@@ -27,39 +27,4 @@ app.controller('artCtrl', function($scope) {
     }
   ];
 
-  // $scope.madonna = {
-  //   name: 'madonna',
-  //   images: [
-  //     './images/madonna.jpg'
-  //   ]
-  // };
-  //
-  // $scope.untitled = {
-  //   name: 'untitled',
-  //   images: [
-  //     './images/Untitled-1.jpg'
-  //   ]
-  // };
-  //
-  // $scope.womanwave = {
-  //   name: 'womanwave',
-  //   images: [
-  //     './images/womanwave.jpg'
-  //   ]
-  // };
-  //
-  // $scope.lines = {
-  //   name: 'blackerlines',
-  //   images: [
-  //     './images/blackerlinessmall.jpg'
-  //   ]
-  // };
-  //
-  // $scope.chosen = {
-  //   name: 'chosen',
-  //   images: [
-  //     './images/chosen3.jpg'
-  //   ]
-  // }
-
 })
