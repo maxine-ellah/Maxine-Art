@@ -1,25 +1,30 @@
 {
-  "name": "bkafrontend",
+  "name": "maxine-art",
   "version": "1.0.0",
-  "description": "BKA front end exercise",
-  "main": "practice.js",
-  "scripts": {
-    "test": "karma start karma.conf.js",
-    "test-single-run": "karma start karma.conf.js --single-run"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "Static site for my old art",
+  "main": "app.js",
   "dependencies": {
-    "angular": "^1.5.7",
-    "tape": "^4.5.1"
+    "browserify": "^13.1.1",
+    "http-server": "^0.9.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
-  "devDependencies": {
-    "angular-mocks": "^1.5.7",
-    "jasmine": "^2.4.1",
-    "karma": "^0.13.22",
-    "karma-chrome-launcher": "^1.0.1",
-    "karma-jasmine": "^1.0.2",
-    "supertest": "^1.2.0",
-    "tap-spec": "^4.1.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxine-ellah/Maxine-Art.git"
+  },
+  "keywords": [
+    "art",
+    "maxine"
+  ],
+  "author": "maxine-ellah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxine-ellah/Maxine-Art/issues"
+  },
+  "homepage": "https://github.com/maxine-ellah/Maxine-Art#readme"
 }
