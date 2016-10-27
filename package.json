@@ -4,6 +4,7 @@
   "description": "Static site for my old art",
   "main": "app.js",
   "dependencies": {
+    "babel-preset-react": "^6.16.0",
     "browserify": "^13.1.1",
     "http-server": "^0.9.0",
     "react": "^15.3.2",
@@ -15,7 +16,7 @@
     "watchify": "^3.7.0"
   },
   "scripts": {
-    "go": "npm run watch && npm run serve",
+    "go": "npm run build && npm run serve",
     "serve": "node_modules/.bin/http-server",
     "build": "browserify public/app.js -o public/bundle.js -t [ babelify --presets [ es2015 react ] ]",
     "watch": "watchify public/app.js -o public/bundle.js -t [ babelify --presets [ es2015 react ] ] -dv",
