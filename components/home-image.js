@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
+import Imagelist from './image-list.js';
 
 class Homeimage extends Component {
-  constructor(props){
-    super(props)
-  }
+
 
 
   render () {
     return (
       <div>
-        <p>what is going on</p>
         <img src="./images/black.jpg"/>
       </div>
     );

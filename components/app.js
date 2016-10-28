@@ -3,16 +3,17 @@ import Homeimage from './home-image.js';
 import Imagelist from './image-list.js';
 
 
+class App extends Component {
 
-const App = React.createClass({
+
   render() {
     return (
       <div>
         <h1>Maxine Ellah</h1>
-        <Homeimage />
+        <Imagelist />
       </div>
     )
   }
-});
+}
 
 export default App;
