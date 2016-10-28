@@ -1,15 +1,21 @@
 import React, {Component} from 'react';
 
-class homeImage extends Component {
-  componentWillMount()
+class Homeimage extends Component {
+  constructor(props){
+    super(props)
+  }
+
+
+  render () {
+    return (
+      <div>
+        <p>what is going on</p>
+        <img src="./images/black.jpg"/>
+      </div>
+    );
+  }
 }
 
-render() {
-  return (
-    <div>
-      <img src={} onClick={}
-    </div>
-  )
-}
 
-export default homeImage;
+
+export default Homeimage;

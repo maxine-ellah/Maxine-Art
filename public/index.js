@@ -1,15 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const App = React.createClass({
-  render() {
-    return (
-      <div>
-        <h1>Maxine Ellah</h1>
-      </div>
-    )
-  }
-});
+import App from '../components/app.js';
 
 ReactDOM.render(
   <App />,
