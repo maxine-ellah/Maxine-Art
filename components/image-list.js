@@ -7,7 +7,7 @@ class Imagelist extends Component {
   }
 
 
-imageLoop(){
+imageMap(){
   return images.map((image) => {
     var path = image.path;
     return (
@@ -20,7 +20,7 @@ imageLoop(){
     return (
       <div className="img-list-container">
         <li>
-          {this.imageLoop()}
+          {this.imageMap()}
         </li>
       </div>
     )

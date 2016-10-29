@@ -2,6 +2,11 @@ body {
   position: relative;
 }
 
+h1 {
+  float: left;
+  font-family: Domine;
+}
+
 img {
     display: block;
     height: auto;
@@ -10,15 +15,6 @@ img {
     margin-right: auto;
 }
 
-.header {
-  text-align: center;
-  font-family: Domine;
-}
-
-h4 {
-  text-align: center;
-  font-family: Domine;
-}
 
 li {
   list-style: none;
