@@ -1,4 +1,9 @@
+body {
+  margin: 0;
+}
+
 #content {
+  /*height: 100%;*/
   position: absolute;
 }
 
@@ -8,17 +13,18 @@
   background-color: pink;
   height: 100%;
   width: 20%;
+  flex-direction: column;
+}
+
+
+li {
+  float: right;
+  list-style: none;
+  display: block;
+  margin-top: 40px;
 }
 
 img {
-    display: block;
-    height: auto;
-    max-width: 670px;
-    float: right;
-    /*margin-left: auto;
-    margin-right: auto;*/
-}
-
-li {
-  list-style: none;
+  height: auto;
+  max-width: 670px;
 }
