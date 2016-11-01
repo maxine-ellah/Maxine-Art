@@ -11,7 +11,9 @@ imageMap(){
   return images.map((image) => {
     var path = image.path;
     return (
-      <img key={image.name} src={path} />
+      <li key={image.name}>
+        <img src={path} />
+      </li>
     )
   })
 }
@@ -19,9 +21,7 @@ imageMap(){
   render(){
     return (
       <div className="img-list-container">
-        <li>
-          {this.imageMap()}
-        </li>
+        {this.imageMap()}
       </div>
     )
   }

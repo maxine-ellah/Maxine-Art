@@ -1,21 +1,35 @@
 body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#content {
   position: relative;
 }
 
-h1 {
-  float: left;
-  font-family: Domine;
+.Sidebar {
+  text-align: center;
+  position: fixed;
+  background-color: pink;
+  height: 100%;
+  width: 20%;
+  flex-direction: column;
+}
+
+.img-list-container {
+  width: 80%;
+  float: right;
+}
+
+li {
+  float: right;
+  list-style: none;
+  display: block;
+  margin-top: 40px;
 }
 
 img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-li {
-  list-style: none;
+  height: auto;
+  max-width: 670px;
 }
