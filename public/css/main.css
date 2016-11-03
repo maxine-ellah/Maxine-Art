@@ -22,13 +22,13 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
-  background-color: pink;
+  background-color: #ffebe6;
   flex-direction: row;
 }
 
 .img-list-container {
   padding: 5%;
-  margin-top: 25%;
+  margin-top: 5%;
   width: 100%;
   text-align: center;
 }
@@ -61,7 +61,7 @@ p {
   .Sidebar {
     text-align: center;
     position: fixed;
-    background-color: pink;
+    background-color: #ffebe6;
     height: 100%;
     width: 20%;
     flex-direction: column;
@@ -69,6 +69,8 @@ p {
 
   .img-list-container {
     width: 80%;
+    margin-top: 0;
+    padding: 3px;
     float: right;
     text-align: center;
   }
@@ -82,5 +84,11 @@ p {
   img {
     height: auto;
     max-width: 670px;
+  }
+
+  p {
+    margin: 0;
+    padding: 8px;
+    display: block;
   }
 }
