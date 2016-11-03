@@ -3,28 +3,33 @@
 }
 
 body {
-  display: flex;
+  /*display: block;*/
   margin: 0;
 }
 
+
 #content {
-  width: auto;
+  /*width: auto;*/
+  /*clear: both;*/
   display: block;
 }
 
 .Sidebar {
+  /*clear: both;*/
+  top: 0;
+  margin: 0;
+  padding: 0;
   width: 100%;
   text-align: center;
   position: fixed;
   background-color: pink;
-  height: 20%;
-  /*width: 20%;*/
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .img-list-container {
+  padding: 5%;
+  margin-top: 25%;
   width: 100%;
-  /*float: right;*/
   text-align: center;
 }
 
@@ -37,6 +42,12 @@ li {
 img {
   height: auto;
   max-width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 8px;
+  display: inline-block;
 }
 
 @media (min-width: 1024px){
