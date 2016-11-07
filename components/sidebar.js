@@ -7,10 +7,15 @@ class Sidebar extends Component {
 
   render(){
     return (
-      <div className="Sidebar">
-        <p>Maxine Ellah</p>
-        <p>Contact</p>
-        <p>About</p>
+      <div>
+        <div className="Sidebar">
+          <p>Maxine Ellah</p>
+          <p>Contact</p>
+          <p>About</p>
+        </div>
+        <div>
+          {this.props.children}
+        </div>
       </div>
     )
   }

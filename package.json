@@ -19,8 +19,8 @@
   "scripts": {
     "go": "npm run build && npm run serve",
     "serve": "node_modules/.bin/http-server",
-    "build": "browserify public/index.js -o public/bundle.js -t [ babelify --presets [ es2015 react ] ]",
-    "watch": "watchify public/index.js -o public/bundle.js -t [ babelify --presets [ es2015 react ] ] -dv",
+    "build": "browserify public/app.js -o public/bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "watch": "watchify public/app.js -o public/bundle.js -t [ babelify --presets [ es2015 react ] ] -dv",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
