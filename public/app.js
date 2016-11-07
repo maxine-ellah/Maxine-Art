@@ -10,10 +10,10 @@ import Imagelist from '../components/image-list.js';
 
   render(
       <Router history={browserHistory}>
-          <Route component={Sidebar}>
+          <Route path="app" component={Sidebar}>
             <Route path="/" component={Imagelist}/>
-            <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/>
+            <Route path="about" component={About}/>
+            <Route path="contact" component={Contact}/>
           </Route>
       </Router>,
       document.getElementById('content')

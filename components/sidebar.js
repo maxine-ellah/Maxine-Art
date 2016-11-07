@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Router, Route, Link } from 'react-router';
 
 class Sidebar extends Component {
   constructor(){
@@ -9,9 +10,11 @@ class Sidebar extends Component {
     return (
       <div>
         <div className="Sidebar">
-          <p>Maxine Ellah</p>
-          <p>Contact</p>
-          <p>About</p>
+          <ul>
+            <li>Maxine Ellah</li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/about">About</Link></li>
+          </ul>
         </div>
         <div>
           {this.props.children}
