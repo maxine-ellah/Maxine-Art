@@ -33,10 +33,22 @@ body {
   text-align: center;
 }
 
+.about {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
 li {
   margin: auto;
   list-style: none;
   display: inline-block;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
