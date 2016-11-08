@@ -47,6 +47,10 @@ li {
   display: inline-block;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   height: auto;
   max-width: 100%;

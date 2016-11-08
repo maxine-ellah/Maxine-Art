@@ -11,6 +11,7 @@ import Imagelist from '../components/image-list.js';
   render(
       <Router history={browserHistory}>
         <Route path="/" component={Sidebar}>
+          <IndexRoute component={Imagelist}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
         </Route>
