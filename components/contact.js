@@ -7,7 +7,9 @@ class Contact extends Component {
 
   render(){
     return (
-      <p>maxine.ellah@gmail.com</p>
+      <div className="contact">
+        <p>maxine.ellah@gmail.com</p>
+      </div>  
     )
   }
 }
