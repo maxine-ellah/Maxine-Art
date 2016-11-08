@@ -23,7 +23,7 @@ body {
 }
 
 .img-list-container {
-  padding: 5%;
+  padding: 8%;
   margin-top: 5%;
   width: 100%;
   text-align: center;
@@ -37,6 +37,11 @@ body {
   text-align: center;
 }
 
+ul {
+  padding: 0;
+  margin: 5px 0px 5px;
+}
+
 li {
   margin: auto;
   list-style: none;
@@ -45,7 +50,9 @@ li {
 
 a {
   text-decoration: none;
-  display: block;
+  margin: 0;
+  padding: 8px;
+  display: inline-block;
 }
 
 img {
@@ -79,7 +86,7 @@ p {
   .img-list-container {
     width: 80%;
     margin-top: 0;
-    padding: 3px;
+    padding: 0.5%;
     float: right;
     text-align: center;
   }
@@ -94,11 +101,10 @@ p {
     list-style: none;
     display: block;
     margin: 0;
-    padding: 8px;
   }
 
-  li a {
-    padding: 13px;
+  a {
+    padding: 7%;
   }
 
   img {
