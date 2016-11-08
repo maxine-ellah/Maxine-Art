@@ -45,6 +45,7 @@ li {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 img {
@@ -83,10 +84,21 @@ p {
     text-align: center;
   }
 
+  ul {
+    padding: 0;
+    display: block;
+  }
+
   li {
     margin: auto;
     list-style: none;
-    display: inline-block;
+    display: block;
+    margin: 0;
+    padding: 8px;
+  }
+
+  li a {
+    padding: 13px;
   }
 
   img {
@@ -94,9 +106,4 @@ p {
     max-width: 670px;
   }
 
-  p {
-    margin: 0;
-    padding: 8px;
-    display: block;
-  }
 }
