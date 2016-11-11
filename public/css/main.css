@@ -6,11 +6,6 @@ body {
   margin: 0;
 }
 
-
-#content {
-  display: block;
-}
-
 .Sidebar {
   top: 0;
   margin: 0;
@@ -45,7 +40,7 @@ ul {
 li {
   margin: auto;
   list-style: none;
-  display: inline-block;
+  display: inline;
 }
 
 a {
@@ -58,7 +53,7 @@ a {
 
 img {
   height: auto;
-  max-width: 100%;
+  max-width: 70%;
 }
 
 p {
@@ -80,12 +75,10 @@ p {
     position: fixed;
     background-color: #ffebe6;
     height: 100%;
-    width: 20%;
     flex-direction: column;
   }
 
   .img-list-container {
-    width: 80%;
     margin-top: 0;
     padding: 0.5%;
     float: right;
@@ -94,7 +87,6 @@ p {
 
   ul {
     padding: 0;
-    display: block;
   }
 
   li {
@@ -110,7 +102,6 @@ p {
 
   img {
     height: auto;
-    max-width: 670px;
+    max-width: 60%;
   }
-
 }

@@ -20,7 +20,7 @@ imageMap(){
 
   render(){
     return (
-      <div className="img-list-container">
+      <div className="col-4 img-list-container">
         {this.imageMap()}
       </div>
     )
