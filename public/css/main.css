@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+/*.col-m-1 {width: 33.33%;}
+.col-m-2 {width: 66.66%;}
+.col-m-3 {width: 100%;}*/
+
 .Sidebar {
   top: 0;
   margin: 0;
@@ -19,7 +23,7 @@ body {
 
 .img-list-container {
   padding: 8%;
-  margin-top: 5%;
+  margin-top: 44px;
   width: 100%;
   text-align: center;
 }
@@ -35,18 +39,19 @@ body {
 ul {
   padding: 0;
   margin: 5px 0px 5px;
+  display: flex;
 }
 
 li {
   margin: auto;
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 a {
   text-decoration: none;
   color: black;
-  margin: 0;
+  /*margin: 0;*/
   padding: 8px;
   display: inline-block;
 }
@@ -87,13 +92,11 @@ p {
 
   ul {
     padding: 0;
+    display: block;
   }
 
   li {
-    margin: auto;
-    list-style: none;
     display: block;
-    margin: 0;
   }
 
   a {
@@ -101,7 +104,6 @@ p {
   }
 
   img {
-    height: auto;
     max-width: 60%;
   }
 }
