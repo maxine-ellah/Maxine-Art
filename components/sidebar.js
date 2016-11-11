@@ -11,9 +11,9 @@ class Sidebar extends Component {
       <div>
         <div className="col-1 Sidebar">
           <ul>
-            <li className="col-m-1"><Link to="/">Maxine Ellah</Link></li>
-            <li className="col-m-1"><Link to="/contact">Contact</Link></li>
-            <li className="col-m-1"><Link to="/about">About</Link></li>
+            <li className="name"><Link to="/">Maxine Ellah</Link></li>
+            <li className="contact"><Link to="/contact">Contact</Link></li>
+            <li className="about"><Link to="/about">About</Link></li>
           </ul>
         </div>
         <div>

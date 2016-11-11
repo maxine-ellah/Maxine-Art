@@ -22,18 +22,22 @@ body {
 }
 
 .img-list-container {
-  padding: 8%;
+  padding: 5%;
   margin-top: 44px;
   width: 100%;
   text-align: center;
 }
 
 .about {
-  text-align: center;
+  order: 1;
+}
+
+.name {
+  order: 2;
 }
 
 .contact {
-  text-align: center;
+  order: 3;
 }
 
 ul {
