@@ -6,10 +6,6 @@ body {
   margin: 0;
 }
 
-/*.col-m-1 {width: 33.33%;}
-.col-m-2 {width: 66.66%;}
-.col-m-3 {width: 100%;}*/
-
 .Sidebar {
   top: 0;
   margin: 0;
@@ -38,6 +34,14 @@ body {
 
 .contact {
   order: 3;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.contact-content {
+  text-align: center;
 }
 
 ul {
