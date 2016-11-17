@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   text-align: center;
   position: fixed;
   background-color: #ffebe6;
-  flex-direction: row;
+  /*flex-direction: row;*/
 }
 
 .img-list-container {
