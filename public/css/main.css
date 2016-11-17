@@ -13,8 +13,8 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
+  font-family: 'Space Mono', monospace;
   background-color: #ffebe6;
-  /*flex-direction: row;*/
 }
 
 .img-list-container {
