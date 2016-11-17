@@ -37,10 +37,12 @@ body {
 }
 
 .about-content {
+  /*position: relative;*/
   text-align: center;
 }
 
 .contact-content {
+  /*position: relative;*/
   text-align: center;
 }
 
@@ -59,7 +61,6 @@ li {
 a {
   text-decoration: none;
   color: black;
-  /*margin: 0;*/
   padding: 8px;
   display: inline-block;
 }
@@ -70,9 +71,13 @@ img {
 }
 
 p {
-  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*margin: 0;
   padding: 8px;
-  display: inline-block;
+  display: inline-block;*/
 }
 
 @media (min-width: 1024px){
