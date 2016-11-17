@@ -98,6 +98,14 @@ p {
     text-align: center;
   }
 
+  .about-content {
+    float: right;
+  }
+
+  .contact-content {
+    float: right;
+  }
+
   ul {
     padding: 0;
     display: block;
