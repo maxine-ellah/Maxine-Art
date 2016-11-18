@@ -37,13 +37,11 @@ body {
 }
 
 .about-content {
-  /*position: relative;*/
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .contact-content {
-  /*position: relative;*/
-  text-align: center;
+  /*text-align: center;*/
 }
 
 ul {
@@ -104,11 +102,22 @@ p {
   }
 
   .about-content {
-    float: right;
+    /*margin-top: 0;
+    padding: 0.5%;
+    float: right;*/
+    text-align: center;
   }
 
   .contact-content {
+    position: relative;
+    margin-top: 0;
+    padding: 0.5%;
     float: right;
+    text-align: center;
+  }
+
+  .contact-content p {
+  
   }
 
   ul {
@@ -127,4 +136,5 @@ p {
   img {
     max-width: 60%;
   }
+
 }

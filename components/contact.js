@@ -9,6 +9,7 @@ class Contact extends Component {
     return (
       <div className="col-4 contact-content">
         <p>maxine.ellah@gmail.com</p>
+        <li>maxine.ellah@gmail.com</li>
       </div>
     )
   }
