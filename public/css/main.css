@@ -24,15 +24,15 @@ body {
   text-align: center;
 }
 
-.about {
+.about-link {
   order: 1;
 }
 
-.name {
+.name-link {
   order: 2;
 }
 
-.contact {
+.contact-link {
   order: 3;
 }
 
@@ -117,7 +117,7 @@ p {
   }
 
   .contact-content p {
-  
+
   }
 
   ul {
