@@ -9,11 +9,11 @@ class Sidebar extends Component {
   render(){
     return (
       <div>
-        <div className="Sidebar">
+        <div className="col-1 Sidebar">
           <ul>
-            <li><Link to="/">Maxine Ellah</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <li className="name-link"><Link to="/">Maxine Ellah</Link></li>
+            <li className="contact-link"><Link to="/contact">Contact</Link></li>
+            <li className="about-link"><Link to="/about">About</Link></li>
           </ul>
         </div>
         <div>
