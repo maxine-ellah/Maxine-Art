@@ -5,18 +5,18 @@ let path = require('path');
 
 let app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 app.get('/contact', function(req, res){
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile('public/index.html', { root: __dirname });
 })
 
 app.get('/about', function(req, res){
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile('public/index.html', { root: __dirname });
 })
 
 app.get('*', function(req, res){
-  res.sendFile(path.join(__dirname, 'public', 'index.html'))
+  res.sendFile('public/index.html', { root: __dirname });
 })
 
 app.listen(8080, function(){

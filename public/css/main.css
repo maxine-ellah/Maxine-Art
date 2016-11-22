@@ -41,6 +41,8 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Work Sans', sans-serif;
+  word-spacing: 5px;
 }
 
 .contact-content {
@@ -48,6 +50,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Work Sans', sans-serif;
 }
 
 ul {
@@ -101,6 +104,7 @@ img {
   .about-content {
     left: 60%;
     text-align: center;
+    display: inline;
   }
 
   .contact-content {
