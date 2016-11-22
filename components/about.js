@@ -8,7 +8,7 @@ class About extends Component {
   render(){
     return (
       <div className="col-4 about-content">
-        <p>A developer</p>
+        <p>A developer, visual artist</p>
       </div>
     )
   }
