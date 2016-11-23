@@ -7,6 +7,10 @@ let app = express();
 
 app.use(express.static('public'));
 
+app.get('/Maxine-Art/', function(req, res){
+  res.sendFile('index.html', { root: __dirname });
+})
+
 app.get('/contact', function(req, res){
   res.sendFile('index.html', { root: __dirname });
 })
