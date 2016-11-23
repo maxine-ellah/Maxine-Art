@@ -11,9 +11,9 @@ import Imagelist from '../components/image-list.js';
   render(
       <Router history={browserHistory}>
         <Route path="/Maxine-Art/" component={Sidebar}>
-          <IndexRoute path="/Maxine-Art/" component={Imagelist}/>
-          <Route path="/Maxine-Art/about" component={About}/>
-          <Route path="/Maxine-Art/contact" component={Contact}/>
+          <IndexRoute component={Imagelist}/>
+          <Route path="/about" component={About}/>
+          <Route path="/contact" component={Contact}/>
         </Route>
       </Router>,
       document.getElementById('content')
