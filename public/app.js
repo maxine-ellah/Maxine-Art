@@ -7,7 +7,6 @@ import Contact from '../components/contact.js';
 import Sidebar from '../components/sidebar.js';
 import Imagelist from '../components/image-list.js';
 
-
   render(
       <Router history={hashHistory}>
         <Route path="/" component={Sidebar}>
