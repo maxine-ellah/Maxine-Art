@@ -15,8 +15,10 @@ class Sidebar extends Component {
 contentHandler(content){
   if (content === "contact") {
     this.setState({ content: <Contact/> })
-  } else {
+  } else if (content === "about"){
     this.setState({ content: <About/> })
+  } else {
+    this.setState({ content: <Imagelist/> })    
   }
 }
 
@@ -26,9 +28,9 @@ contentHandler(content){
       <div>
         <div className="col-1 Sidebar">
           <ul>
-            <a className="name-link" onClick={ ()=> this.contentHandler("home")}>Maxine Ellah</a>
-            <a className="contact-link" onClick={() => this.contentHandler("contact")}>Contact</a>
-            <a className="about-link" onClick={() => this.contentHandler("about")}>About</a>
+            <a className="name-link" onClick={ () => this.contentHandler("home") }>Maxine Ellah</a>
+            <a className="contact-link" onClick={ () => this.contentHandler("contact") }>Contact</a>
+            <a className="about-link" onClick={ () => this.contentHandler("about") }>About</a>
           </ul>
         </div>
         <div>
