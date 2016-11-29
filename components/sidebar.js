@@ -9,26 +9,34 @@ import Imagelist from '../components/image-list.js';
 class Sidebar extends Component {
   constructor(){
     super();
-    this.state = {page: <Imagelist/> };
+    this.contactClickHandler = this.contactClickHandler.bind(this);
+    this.aboutClickHandler = this.aboutClickHandler.bind(this);
+    this.state = {isClicked: <Imagelist/> };
   }
 
-clickHandler(page){
-  this.setState({page: page})
+aboutClickHandler(){
+  this.setState({isClicked: <About/> })
+  console.log("about");
 }
 
+contactClickHandler(){
+  this.setState({isClicked: <Contact/> })
+  console.log("contact");
+}
 
   render(){
+
     return (
       <div>
         <div className="col-1 Sidebar">
           <ul>
-            <li className="name-link"><Link to="/">Maxine Ellah</Link></li>
-            <li className="contact-link"><Link to="/contact">Contact</Link></li>
-            <li className="about-link" onClick={this.clickHandler()}>About</li>
+            <a className="name-link">Maxine Ellah</a>
+            <a className="contact-link" onClick={this.contactClickHandler}>Contact</a>
+            <a className="about-link" onClick={this.aboutClickHandler}>About</a>
           </ul>
         </div>
         <div>
-          {this.state.page}
+          {this.state.isClicked}
         </div>
       </div>
     )
