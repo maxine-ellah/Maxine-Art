@@ -18,7 +18,7 @@ contentHandler(content){
   } else if (content === "about"){
     this.setState({ content: <About/> })
   } else {
-    this.setState({ content: <Imagelist/> })    
+    this.setState({ content: <Imagelist/> })
   }
 }
 
@@ -28,9 +28,9 @@ contentHandler(content){
       <div>
         <div className="col-1 Sidebar">
           <ul>
-            <a className="name-link" onClick={ () => this.contentHandler("home") }>Maxine Ellah</a>
-            <a className="contact-link" onClick={ () => this.contentHandler("contact") }>Contact</a>
-            <a className="about-link" onClick={ () => this.contentHandler("about") }>About</a>
+            <li><a className="name-link" onClick={ () => this.contentHandler("home") }>Maxine Ellah</a></li>
+            <li><a className="contact-link" onClick={ () => this.contentHandler("contact") }>Contact</a></li>
+            <li><a className="about-link" onClick={ () => this.contentHandler("about") }>About</a></li>
           </ul>
         </div>
         <div>
