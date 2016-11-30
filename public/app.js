@@ -8,7 +8,7 @@ import Sidebar from '../components/sidebar.js';
 import Imagelist from '../components/image-list.js';
 
   render(
-      <Router history={hashHistory}>
+      <Router history={browserHistory}>
         <Route path="/" component={Sidebar}>
           <IndexRoute component={Imagelist}/>
           <Route path="/about" component={About}/>
