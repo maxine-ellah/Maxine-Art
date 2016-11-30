@@ -1,23 +1,40 @@
 import React, { Component } from 'react';
 import { Router, Route, Link } from 'react-router';
+//Import custom components
+import About from '../components/about.js';
+import Contact from '../components/contact.js';
+import Imagelist from '../components/image-list.js';
+
 
 class Sidebar extends Component {
   constructor(){
-    super()
+    super();
+    this.state = { content: <Imagelist/> };
   }
+
+contentHandler(content){
+  if (content === "contact") {
+    this.setState({ content: <Contact/> })
+  } else if (content === "about"){
+    this.setState({ content: <About/> })
+  } else {
+    this.setState({ content: <Imagelist/> })
+  }
+}
+
 
   render(){
     return (
       <div>
         <div className="col-1 Sidebar">
           <ul>
-            <li className="name-link"><Link to="/">Maxine Ellah</Link></li>
-            <li className="contact-link"><Link to="/contact">Contact</Link></li>
-            <li className="about-link"><Link to="/about">About</Link></li>
+            <li className="name-link"><a onClick={ () => this.contentHandler("home") }>Maxine Ellah</a></li>
+            <li className="contact-link"><a onClick={ () => this.contentHandler("contact") }>Contact</a></li>
+            <li className="about-link"><a onClick={ () => this.contentHandler("about") }>About</a></li>
           </ul>
         </div>
         <div>
-          {this.props.children}
+          {this.state.content}
         </div>
       </div>
     )
