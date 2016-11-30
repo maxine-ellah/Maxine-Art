@@ -28,9 +28,9 @@ contentHandler(content){
       <div>
         <div className="col-1 Sidebar">
           <ul>
-            <li><a className="name-link" onClick={ () => this.contentHandler("home") }>Maxine Ellah</a></li>
-            <li><a className="contact-link" onClick={ () => this.contentHandler("contact") }>Contact</a></li>
-            <li><a className="about-link" onClick={ () => this.contentHandler("about") }>About</a></li>
+            <li className="name-link"><a onClick={ () => this.contentHandler("home") }>Maxine Ellah</a></li>
+            <li className="contact-link"><a onClick={ () => this.contentHandler("contact") }>Contact</a></li>
+            <li className="about-link"><a onClick={ () => this.contentHandler("about") }>About</a></li>
           </ul>
         </div>
         <div>
