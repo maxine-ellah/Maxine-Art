@@ -1,5 +1,9 @@
 const images = [
   {
+    name: "madonna",
+    path: "images/madonna.jpg"
+  },
+  {
     name: "prince",
     path: "images/black.jpg"
   },
