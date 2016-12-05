@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Router, Route, Link } from 'react-router';
 //Import custom components
 import About from '../components/about.js';
 import Contact from '../components/contact.js';
