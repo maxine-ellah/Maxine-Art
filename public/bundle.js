@@ -1,1 +1,1 @@
-console.error("Error: Cannot find module '../components/app.js' from '/Users/maxineellah/Documents/Coding Projects/Maxine-Art/public'");
+console.error("Error: Cannot find module 'react-router' from '/Users/maxineellah/Documents/Coding Projects/Maxine-Art/components'");
