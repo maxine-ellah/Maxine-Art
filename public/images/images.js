@@ -1,12 +1,12 @@
 const images = [
-  // {
-  //   name: "madonna",
-  //   path: "public/images/madonna.jpg"
-  // },
-  // {
-  //   name: "prince",
-  //   path: "public/images/black.jpg"
-  // },
+  {
+    name: "madonna",
+    path: "public/images/madonna.jpg"
+  },
+  {
+    name: "prince",
+    path: "public/images/black.jpg"
+  },
   {
     name: "chosen",
     path: "public/images/chosen3.jpg"
