@@ -15,10 +15,10 @@ const images = [
     name: "womanwave",
     path: "public/images/womanwave.jpg"
   },
-  {
-    name: "tropic",
-    path: "public/images/test12.jpg"
-  },
+  // {
+  //   name: "tropic",
+  //   path: "public/images/test12.jpg"
+  // },
   {
     name: "thigh",
     path: "public/images/thigh.jpg"
