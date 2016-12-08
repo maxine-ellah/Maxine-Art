@@ -19,6 +19,14 @@ const images = [
     name: "tropic",
     path: "public/images/test12.jpg"
   },
+  {
+    name: "thigh",
+    path: "public/images/thigh.jpg"
+  },
+  {
+    name: "float",
+    path: "public/images/float.jpg"
+  }
 ]
 
 export default images;
