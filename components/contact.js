@@ -9,7 +9,7 @@ class Contact extends Component {
     return (
       <div className="col-4 contact-content">
         <a href="mailto:maxine.ellah@gmail.com">maxine.ellah@gmail.com</a>
-        <a href="http://kiiis.tumblr.com/">kiiis.tumblr.com/</a>
+        <a href="http://kiiis.tumblr.com/">kiiis.tumblr.com</a>
       </div>
     )
   }
